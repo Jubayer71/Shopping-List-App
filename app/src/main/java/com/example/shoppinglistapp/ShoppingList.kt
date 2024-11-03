@@ -189,7 +189,7 @@ fun ShoppingListItem(
 
     ){
         Text(text = item.name, modifier = Modifier.padding(8.dp))
-        Text(text = "Qty: {item.quantity}", modifier = Modifier.padding(8.dp))
+        Text(text = "Qty: ${item.quantity}", modifier = Modifier.padding(8.dp))
 
         Row (modifier = Modifier.padding(8.dp)){
 
